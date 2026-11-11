@@ -1,0 +1,97 @@
+
+# AGENTS.md
+
+## 1. Project Overview
+
+Project Name: History Wiki
+
+This project is a historical knowledge website.
+
+The purpose is to organize and present historical
+information, military history, and historical analysis.
+
+The website should be easy to navigate and expand.
+
+## 2. Technology Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- GitHub Pages
+
+Do not use unnecessary frameworks or backend services.
+
+## 3. Website Design
+
+- Use a clean and minimalist design.
+- Use a consistent color palette.
+- Use a historical encyclopedia visual style.
+- Ensure responsive design for desktop and mobile.
+- Use readable typography.
+- Keep navigation consistent across pages.
+
+## 4. Project Structure
+
+- index.html: Homepage
+- css/: Stylesheets
+- js/: JavaScript files
+- pages/: Category and information pages
+- articles/: Historical articles
+- assets/images/: Website images
+- AGENTS.md: AI development instructions
+- README.md: Project documentation
+
+## 5. Article Format
+
+Every article should contain:
+
+1. Title
+2. Introduction
+3. Historical Background
+4. Main Discussion
+5. Causes and Consequences
+6. Conclusion
+7. References
+
+## 6. File Naming Rules
+
+- Use lowercase English filenames.
+- Use hyphens instead of spaces.
+- Store articles in the articles/ directory.
+- Store images in assets/images/.
+
+Examples:
+- five-barbarians.html
+- mongol-military.html
+- song-crossbow.html
+
+## 7. AI Development Rules
+
+Before modifying the project:
+
+1. Read this AGENTS.md file.
+2. Understand the existing project structure.
+3. Follow the existing design system.
+4. Reuse existing CSS styles.
+5. Maintain consistent navigation.
+6. Avoid unnecessary duplication.
+7. Do not modify unrelated files.
+
+## 8. Historical Content Rules
+
+- Use clear and accurate historical explanations.
+- Distinguish historical facts from interpretations.
+- Do not invent historical sources.
+- Include references when possible.
+- Focus on historical causes and mechanisms.
+
+## 9. Development Workflow
+
+Before completing a task:
+
+1. Check the existing project structure.
+2. Follow the project rules.
+3. Test the new page.
+4. Check internal links.
+5. Ensure responsive design.
+6. Update README.md when necessary.

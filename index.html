@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History Wiki | Explore the Past</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">HISTORY WIKI</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pages/chinese-history.html">Chinese History</a>
+        <a href="pages/military-history.html">Military History</a>
+        <a href="pages/world-history.html">World History</a>
+        <a href="pages/about.html">About</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <p class="eyebrow">A PERSONAL HISTORICAL ENCYCLOPEDIA</p>
+    <h1>Understand the Past.<br>Understand the World.</h1>
+    <p>Explore civilizations, empires, warfare and the forces
+       that shaped human history.</p>
+    <a class="hero-button" href="#explore">Explore Knowledge</a>
+</section>
+
+<main class="container" id="explore">
+
+    <section class="section">
+        <h2>Explore History</h2>
+        <p class="section-desc">Discover different fields of history.</p>
+
+        <div class="category-grid">
+            <a class="category-card" href="pages/chinese-history.html">
+                <span>01</span>
+                <h3>Chinese History</h3>
+                <p>Dynasties, civilizations and political development.</p>
+            </a>
+
+            <a class="category-card" href="pages/military-history.html">
+                <span>02</span>
+                <h3>Military History</h3>
+                <p>Weapons, warfare, tactics and military systems.</p>
+            </a>
+
+            <a class="category-card" href="pages/world-history.html">
+                <span>03</span>
+                <h3>World History</h3>
+                <p>Empires, societies and global transformations.</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-heading">
+            <div>
+                <h2>Featured Articles</h2>
+                <p class="section-desc">Explore historical studies and analysis.</p>
+            </div>
+            <input id="searchInput" type="search"
+                   placeholder="Search articles...">
+        </div>
+
+        <div class="article-grid" id="articleGrid">
+            <a class="article-card" href="articles/five-barbarians.html">
+                <div class="article-number">CHINESE HISTORY · 01</div>
+                <h3>The Formation of the Sixteen Kingdoms</h3>
+                <p>Understanding the political, economic and social
+                   mechanisms behind the fragmentation of northern China.</p>
+                <span class="read-more">Read Article →</span>
+            </a>
+
+            <a class="article-card" href="articles/mongol-military.html">
+                <div class="article-number">MILITARY HISTORY · 02</div>
+                <h3>Mongol Military Strategy</h3>
+                <p>Explore the organization, mobility and tactics
+                   behind Mongol military expansion.</p>
+                <span class="read-more">Read Article →</span>
+            </a>
+
+            <a class="article-card" href="articles/song-crossbow.html">
+                <div class="article-number">MILITARY HISTORY · 03</div>
+                <h3>The Song Dynasty Shenbi Crossbow</h3>
+                <p>Examine the technology and military role
+                   of the Shenbi crossbow.</p>
+                <span class="read-more">Read Article →</span>
+            </a>
+        </div>
+        <p id="noResults" hidden>No matching articles found.</p>
+    </section>
+
+</main>
+
+<footer>
+    <h3>HISTORY WIKI</h3>
+    <p>A personal historical knowledge project.</p>
+    <p class="copyright">© 2026 History Wiki</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
